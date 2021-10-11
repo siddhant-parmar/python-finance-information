@@ -22,11 +22,11 @@
             
               {{currentDay}}&nbsp;{{currentDate}}&nbsp;{{currentTime}}&nbsp;{{currentTimezone}}&nbsp;{{currentYear}}<br>
               <br>
-              {{companyName}}&nbsp;{{stockSymbol}}<br>
+              {{companyName}}&nbsp;{{bropen}}{{stockSymbol}}{{brclose}}<br>
               <br>
-              {{stockPrice}}&nbsp;{{pm1}}{{valueChange}}&nbsp;({{pm2}}{{percChange}})<br>
-              <br>
+              {{stockPrice}}&nbsp;{{pm}}{{valueChange}}&nbsp;{{bropen}}{{pm}}{{percChange}}{{perc}}{{brclose}}<br>
               {{errorMessage}}
+              
             </td>
           </tr>
         </tbody>
